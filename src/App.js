@@ -13,11 +13,11 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to the greatest app of all time!</h1>
+      <header>
+        <h1>Inittech&reg; Team Management System</h1>
+        </header>
         <ListTeam team={team} />
         <Form addNewMember={addNewMember} />
-      </header>
     </div>
   );
 }
